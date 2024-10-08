@@ -36,5 +36,13 @@ Temporary Items
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
 
+# unimportant files
 template/
 *.psd
+
+# latex-related files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
