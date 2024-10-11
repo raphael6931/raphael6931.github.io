@@ -93,7 +93,7 @@ h2 {
   margin: 0;
   font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .papertitle {
@@ -107,6 +107,7 @@ h2 {
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+  color: #0d003f;
 }
 
 .one {
@@ -147,4 +148,15 @@ span.highlight {
 .description {
   margin: 2px 0;
   padding: 0;
+  font-size: 15px;
+}
+
+.description * {
+  margin: 2px 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.section-title {
+  color: #100051;
 }
