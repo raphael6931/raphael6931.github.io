@@ -104,6 +104,17 @@ body {
       margin-left: 20px;
   }
 }
+.info-item {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 8px;
+  text-align: justify;
+  background-color: #fafafa;
+}
+.info-item:hover {
+  border: 1.2px solid #87ceeb;
+  background-color: #ffffff;
+}
 .experience-item {
   display: flex;
   flex-direction: column;
@@ -112,9 +123,11 @@ body {
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 20px;
+  background-color: #fafafa;
 }
 .experience-item:hover {
   border: 1.2px solid #87ceeb;
+  background-color: #ffffff;
 }
 .experience-item img {
   width: 140px;
