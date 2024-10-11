@@ -107,12 +107,12 @@ body {
 .info-item {
   border: 1px solid #ddd;
   border-radius: 15px;
-  padding: 8px;
+  padding: 10px;
   text-align: justify;
-  background-color: #fafafa;
+  background-color: #fcfcfc;
 }
 .info-item:hover {
-  border: 1.2px solid #87ceeb;
+  border: 1.2px solid #a8d7e9;
   background-color: #ffffff;
 }
 .experience-item {
@@ -121,12 +121,12 @@ body {
   align-items: center;
   border: 1px solid #ddd;
   border-radius: 15px;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 20px;
-  background-color: #fafafa;
+  background-color: #fcfcfc;
 }
 .experience-item:hover {
-  border: 1.2px solid #87ceeb;
+  border: 1.2px solid #a8d7e9;
   background-color: #ffffff;
 }
 .experience-item img {
@@ -145,11 +145,28 @@ body {
       margin-bottom: 0;
   }
 }
+.award-root {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: justify;
+  background-color: #fcfcfc;
+  list-style: disc;
+  list-style-position: inside;
+}
+.award-root:hover {
+  border: 1.2px solid #a8d7e9;
+  background-color: #ffffff;
+}
+.award-sub {
+  list-style: circle;
+}
 .awards {
   margin-bottom: 40px;
 }
 .award-item:hover {
   color: #00175a;
+  background-color: #fcfcfc;
 }
 footer {
   text-align: center;
@@ -161,4 +178,8 @@ footer {
 }
 .reduced-margin {
   margin: 2px;
+}
+.contact-links {
+  text-align: center;
+  margin-top: 10px;
 }
