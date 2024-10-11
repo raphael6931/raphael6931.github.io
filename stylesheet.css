@@ -117,8 +117,8 @@ body {
   border: 1.2px solid #87ceeb;
 }
 .experience-item img {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   object-fit: contain;
   margin-bottom: 20px;
 }
